@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie - Naše recepty</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Speciální mřížka pro galerii, doplňující tvůj style.css */
+        .gallery-grid {
+            display: grid;
+            /* Responzivní mřížka: 3 sloupce na velkém monitoru, méně na menším */
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Galerie</h1>
+    </header>
+
+
+    <main>
+        <h2>Naše kulinářské výtvory</h2>
+        
+        <div class="gallery-grid">
+            <a href="#" class="recipe-card-link">
+                <div class="recipe-card">
+                    <img src="1.webp" alt="Zdravá snídaně" loading="lazy">
+                    <div class="recipe-info">
+                        <h3>Zdravá snídaně</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="recipe-card-link">
+                <div class="recipe-card">
+                    <img src="2.webp" alt="Domácí pizza" loading="lazy">
+                    <div class="recipe-info">
+                        <h3>Domácí pizza</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="recipe-card-link">
+                <div class="recipe-card">
+                    <img src="3.webp" alt="Avokádový toast" loading="lazy">
+                    <div class="recipe-info">
+                        <h3>Avokádový toast</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="recipe-card-link">
+                <div class="recipe-card">
+                    <img src="4.webp" alt="Těstoviny s pestem" loading="lazy">
+                    <div class="recipe-info">
+                        <h3>Těstoviny s pestem</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="recipe-card-link">
+                <div class="recipe-card">
+                    <img src="5.webp" alt="Gurmánský burger" loading="lazy">
+                    <div class="recipe-info">
+                        <h3>Gurmánský burger</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="recipe-card-link">
+                <div class="recipe-card">
+                    <img src="6.webp" alt="Čerstvý salát" loading="lazy">
+                    <div class="recipe-info">
+                        <h3>Čerstvý salát</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="recipe-card-link">
+                <div class="recipe-card">
+                    <img src="7.webp" alt="Grilované maso" loading="lazy">
+                    <div class="recipe-info">
+                        <h3>Grilované maso</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="recipe-card-link">
+                <div class="recipe-card">
+                    <img src="8.webp" alt="Ranní káva" loading="lazy">
+                    <div class="recipe-info">
+                        <h3>Ranní káva</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="recipe-card-link">
+                <div class="recipe-card">
+                    <img src="9.webp" alt="Rajčatová polévka" loading="lazy">
+                    <div class="recipe-info">
+                        <h3>Rajčatová polévka</h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Naše Recepty. Všechna práva vyhrazena. <a href="#">Zásady ochrany soukromí</a></p>
+    </footer>
+
+</body>
+</html>
